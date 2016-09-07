@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AEED187A1D7F8D7600E6A5B5"
-               BuildableName = "WYPopoverController.framework"
-               BlueprintName = "WYPopoverController"
+               BuildableName = "WYPopover.framework"
+               BlueprintName = "WYPopover"
                ReferencedContainer = "container:WYPopoverController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AEED187A1D7F8D7600E6A5B5"
-            BuildableName = "WYPopoverController.framework"
-            BlueprintName = "WYPopoverController"
+            BuildableName = "WYPopover.framework"
+            BlueprintName = "WYPopover"
             ReferencedContainer = "container:WYPopoverController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AEED187A1D7F8D7600E6A5B5"
-            BuildableName = "WYPopoverController.framework"
-            BlueprintName = "WYPopoverController"
+            BuildableName = "WYPopover.framework"
+            BlueprintName = "WYPopover"
             ReferencedContainer = "container:WYPopoverController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

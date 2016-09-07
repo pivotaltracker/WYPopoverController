@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEED187F1D7F8D7600E6A5B5 /* WYPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED187E1D7F8D7600E6A5B5 /* WYPopoverController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEED187F1D7F8D7600E6A5B5 /* WYPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED187E1D7F8D7600E6A5B5 /* WYPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEED188A1D7F8D7F00E6A5B5 /* WYPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED18861D7F8D7F00E6A5B5 /* WYPopoverController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEED188B1D7F8D7F00E6A5B5 /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEED18871D7F8D7F00E6A5B5 /* WYPopoverController.m */; };
 		AEED188C1D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED18881D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,8 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AEED187B1D7F8D7600E6A5B5 /* WYPopoverController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WYPopoverController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEED187E1D7F8D7600E6A5B5 /* WYPopoverController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYPopoverController.h; sourceTree = "<group>"; };
+		AEED187B1D7F8D7600E6A5B5 /* WYPopover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WYPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEED187E1D7F8D7600E6A5B5 /* WYPopover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYPopover.h; sourceTree = "<group>"; };
 		AEED18801D7F8D7600E6A5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEED18861D7F8D7F00E6A5B5 /* WYPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYPopoverController.h; path = ../../src/WYPopoverController.h; sourceTree = "<group>"; };
 		AEED18871D7F8D7F00E6A5B5 /* WYPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYPopoverController.m; path = ../../src/WYPopoverController.m; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		AEED187C1D7F8D7600E6A5B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEED187B1D7F8D7600E6A5B5 /* WYPopoverController.framework */,
+				AEED187B1D7F8D7600E6A5B5 /* WYPopover.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 				AEED18871D7F8D7F00E6A5B5 /* WYPopoverController.m */,
 				AEED18881D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.h */,
 				AEED18891D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.m */,
-				AEED187E1D7F8D7600E6A5B5 /* WYPopoverController.h */,
+				AEED187E1D7F8D7600E6A5B5 /* WYPopover.h */,
 				AEED18801D7F8D7600E6A5B5 /* Info.plist */,
 			);
 			path = WYPopoverController;
@@ -73,16 +73,16 @@
 			files = (
 				AEED188A1D7F8D7F00E6A5B5 /* WYPopoverController.h in Headers */,
 				AEED188C1D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.h in Headers */,
-				AEED187F1D7F8D7600E6A5B5 /* WYPopoverController.h in Headers */,
+				AEED187F1D7F8D7600E6A5B5 /* WYPopover.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AEED187A1D7F8D7600E6A5B5 /* WYPopoverController */ = {
+		AEED187A1D7F8D7600E6A5B5 /* WYPopover */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEED18831D7F8D7600E6A5B5 /* Build configuration list for PBXNativeTarget "WYPopoverController" */;
+			buildConfigurationList = AEED18831D7F8D7600E6A5B5 /* Build configuration list for PBXNativeTarget "WYPopover" */;
 			buildPhases = (
 				AEED18761D7F8D7600E6A5B5 /* Sources */,
 				AEED18771D7F8D7600E6A5B5 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = WYPopoverController;
+			name = WYPopover;
 			productName = WYPopoverController;
-			productReference = AEED187B1D7F8D7600E6A5B5 /* WYPopoverController.framework */;
+			productReference = AEED187B1D7F8D7600E6A5B5 /* WYPopover.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEED187A1D7F8D7600E6A5B5 /* WYPopoverController */,
+				AEED187A1D7F8D7600E6A5B5 /* WYPopover */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +286,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEED18831D7F8D7600E6A5B5 /* Build configuration list for PBXNativeTarget "WYPopoverController" */ = {
+		AEED18831D7F8D7600E6A5B5 /* Build configuration list for PBXNativeTarget "WYPopover" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEED18841D7F8D7600E6A5B5 /* Debug */,
