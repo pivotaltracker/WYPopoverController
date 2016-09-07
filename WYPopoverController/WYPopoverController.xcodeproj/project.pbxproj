@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AEED187F1D7F8D7600E6A5B5 /* WYPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED187E1D7F8D7600E6A5B5 /* WYPopoverController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEED188A1D7F8D7F00E6A5B5 /* WYPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED18861D7F8D7F00E6A5B5 /* WYPopoverController.h */; };
+		AEED188A1D7F8D7F00E6A5B5 /* WYPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED18861D7F8D7F00E6A5B5 /* WYPopoverController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEED188B1D7F8D7F00E6A5B5 /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEED18871D7F8D7F00E6A5B5 /* WYPopoverController.m */; };
-		AEED188C1D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED18881D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.h */; };
+		AEED188C1D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED18881D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEED188D1D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = AEED18891D7F8D7F00E6A5B5 /* WYStoryboardPopoverSegue.m */; };
 /* End PBXBuildFile section */
 
@@ -293,6 +293,7 @@
 				AEED18851D7F8D7600E6A5B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
